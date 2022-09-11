@@ -8,7 +8,7 @@ export class SpecPage {
 
     searchBar: By = By.name('q')
     results: By = By.id("rso")
-
+ 
     constructor(driver: WebDriver) {
         this.driver = driver;
     }
